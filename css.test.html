@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS.TEST</title>
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="title">
+
+    <h1 class="title__catchcopy">キャッチコピー</h1>
+    <div class="catchcopy__img">
+      <img src="img/firstview.jpg" alt="">
+    </div>
+  </div>
+  
+    <h2 class="title__about">About</h2>
+    <p class="title__content">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の方でも、<em>「独自の学習ノウハウ」</em>でフリーランスエンジニアを目指すことができます。</p>
+  
+
+    <h2 class="title__blog">ブログ</h2>
+
+  <div class="parent">
+
+    <div class="eyecatch">
+      <div class="eyecatch__img">
+        <img src="img/blog__eyecatch1.jpg" alt="">
+      </div>
+      <div class="eyecatch__content">
+        <h2 class="eyecatch__content">コーチテックブログのタイトルがここに入ります。</h2>
+      </div>
+    </div>
+
+    <div class="eyecatch">
+      <div class="eyecatch__img">
+        <img src="img/blog__eyecatch2.jpg" alt="">
+      </div>
+      <div class="eyecatch__content">
+        <h2 class="eyecatch__content">コーチテックブログのタイトルがここに入ります。</h2>
+      </div>
+    </div>
+
+    <div class="eyecatch">
+      <div class="eyecatch__img">
+        <img src="img/blog__eyecatch3.jpg" alt="">
+      </div>
+      <div class="eyecatch__content">
+        <h2 class="eyecatch__content">コーチテックブログのタイトルがここに入ります。</h2>
+      </div>
+    </div>
+  </div>
+
+   <p class="otoi">問い合わせ</p>
+
+   <form>
+     <div class="inputs">
+       <label class="label">名前</label>
+       <input class="input_form" type="text" name="name">
+     </div>
+     <div class="inputs">
+       <label class="label">メールアドレス</label>
+       <input class="input_form" type="email" name="email">
+     </div>
+     <div class="inputs">
+       <label class="label">用件</label>
+       <select name="select">
+         <option value="koukoku">広告掲載について</option>
+       </select>
+     </div>
+     <div class="inputs">
+       <label class="label">内容</label>
+       <textarea class="input_form"></textarea>
+     </div>
+
+     <div class="btn-area">
+       <input type="reset" value="削除" class="reset"><input type="submit" value="送信" class="submit">
+     </div>
+   </form>
+
+
+</body>
+
+</html>

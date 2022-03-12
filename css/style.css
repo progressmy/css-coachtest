@@ -1,0 +1,124 @@
+font-family: 'Gorditas', cursive;
+
+.title{
+  position:relative;
+}
+
+.title__catchcopy{
+  position:absolute;
+  font-size:40px;
+  background-image:url("../img/firstview.jpeg");
+  background-size:1000px 400px;
+  margin:150px 400px auto 400px;
+  
+  color:white;
+  text-align:center;
+
+}
+
+.title__about{
+  font-size:30px;
+  margin:70px auto 70px;
+  text-align:center;
+}
+
+.title__content{
+  font-size: 20px;
+  text-align:center;
+}
+
+em{
+  font-weight:bold;
+}
+
+.title__blog{
+  font-size:30px;
+  text-align:center;
+  margin: 70px auto;
+}
+  
+.parent{
+  display:flex;
+  justify-content:center;
+}
+
+.eyecatch{
+  width :30%;
+  margin :30px;
+}
+
+.eyecatch__img img{
+  width:100%;
+  padding: 20px;
+  
+}
+
+.eyecatch__content{
+  padding:5px 20px;
+}
+  
+.otoi{
+  font-size:30px;
+  text-align:center;
+  margin:70px auto 70px;
+  font-weight:bold;
+}
+
+form{
+  width:780px;
+  margin:0px auto;
+}
+
+.inputs{
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.label{
+  float:left;
+  margin-right:10px;
+  width:150px;
+  padding-left:10px;
+  font-size:15px;
+}
+
+.input_form{
+  float:left;
+  width:500px;
+}
+
+textarea{
+  height: 200px;
+}
+
+.btn-area{
+  text-align:center;
+
+
+}
+
+.submit{
+  background:blue;
+  color:white;
+  font-size: 10px;
+  padding:5px;
+  margin:5px auto 10px 10px;
+  box-sizing:border-box;
+  width:150px;
+  border:none;
+  
+
+}
+
+.reset{
+  background:grey;
+  color:black;
+  font-size:10px;
+  padding:5px;
+  margin:5px 10px 10px auto;
+  width:150px;
+  box-sizing:border-box;
+  border:none;
+
+}
+
